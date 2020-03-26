@@ -1,0 +1,20 @@
+@use 'sass:color';
+
+$greycolor: rgb(95, 95, 95);
+$whitecolor: rgb(255, 255, 255);
+$orangecolor: rgb(247, 111, 0);
+$blackcolor: rgb(0, 0, 0);
+
+$navpadding: 15px 30px;
+
+$font-size-small: 16px;
+$font-size-regular: 18px;
+$font-size-big: 25px;
+
+$font-bold: 900;
+
+$tablet-size-viewport: 800px;
+$intermeditate-size-viewport: 1000px;
+$laptop-size-viewport: 1200px;
+
+$z-index: 1000;

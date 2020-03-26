@@ -1,0 +1,70 @@
+.menu {
+  display: none;
+
+  @media screen and (max-width: $tablet-size-viewport) {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: $orangecolor;
+
+    .menu__btn {
+      display: block;
+      padding: 20px;
+      color: $greycolor;
+      overflow: hidden;
+      font-size: $font-size-big;
+      font-weight: $font-bold;
+      text-decoration: none;
+    }
+  }
+}
+
+header {
+  width: 100%;
+}
+
+header nav {
+  background: $greycolor;
+  z-index: $z-index;
+  width: 100%;
+}
+
+.header__headerNavUl {
+  list-style: none;
+}
+
+.header__headerNavUlLi {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+
+  &:hover {
+    background: $orangecolor;
+  }
+
+  &:hover .children {
+    display: block;
+  }
+}
+
+.header__headerNavUlLi a {
+  color: $whitecolor;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.header__headerNavUlLi .children {
+  display: none;
+  background: $greycolor;
+  position: absolute;
+  width: 100vw;
+  z-index: $z-index;
+
+  @media screen and (max-width: $tablet-size-viewport) {
+    li {
+      display: block;
+    }
+  }
+}

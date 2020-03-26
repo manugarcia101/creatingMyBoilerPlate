@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./styles/main.scss">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <a href="" class="menu__btn">Menu</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                        <a href="lenguajes.html">Lenguajes</a>
+                        <ul class="children">
+                            <li><a href="html.html">HTML</a></li>
+                            <li><a href="css.html">CSS</a></li>
+                            <li><a href="js.html">JS</a></li>
+                        </ul>
+                    </li>
+                    <li class="submenu">
+                        <a href="ejecutores.html">Ejecutores</a>
+                        <ul class="children">
+                            <li><a href="gulp.html">Gulp</a></li>
+                            <li><a href="grunt.html">Grunt</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h1 class="-aligned -mt">Gulp</h1>
+                <div class="wrapper">
+                    <div class="wrapper__content">
+                        <p>Gulp es un ejecutor de línea de comandos libre para JavaScript. l igual que Grunt, este 
+                            programa está disponible con una licencia de código abierto MIT y se basa en la plataforma
+                             de JavaScript Node.js. Como su competidor, recurre al gestor de paquetes npm y apenas 
+                            difiere de este en términos de estructura: dado que Gulp también es una herramienta de 
+                            línea de comandos, posee la interfaz de usuario para ello, esta es, gulp-cli. Además, 
+                            recurre por norma general a package.json comoarchivo de configuración y al archivo Gulp 
+                            (gulpfile.js), que especifica las tareas posibles</p>
+                        <p> El archivo Gulp, que solo contiene JavaScript, agrupa las operaciones de archivos para que 
+                            se puedan ejecutar con el módulo deNode.jsstream. Cada proceso stream se ejecuta en su 
+                            mayor parte en la memoria principal antes de que el resultado se escriba de nuevo en cada 
+                            archivo. Todo ello hace que este task runner destaque por su excelente rendimiento, aunque 
+                            es esencial tener conocimientos de Node.js y JavaScript para usarlo, pues las tareas están 
+                            programadas desde un principio pero no configuradas. </p>
+                        <p>Para los más expertos esto implica una gran libertad, que a su vez conlleva un alto potencial 
+                            de error. También existen plugins para Gulp con gran cantidad de tareas ya preparadas. El 
+                            directorio oficial gulpjs.com dispone de más de 3.000 extensiones diferentes</p>
+                        <cite><a href="https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/gulp-vs-grunt-que-diferencia-a-estos-task-runners/">Digital guide IONOS - Gulp Vs Grunt</a></cite>
+                    </div>
+                    <div class="wrapper__image">
+                        <img src="./images/gulp.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="container">
+            <p>Pec 1. Herramientas HTML y CSS I. Manuel García López</p>
+        </footer>
+        <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
